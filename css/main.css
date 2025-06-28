@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
 
 html {
-    background-color: #4C24FF;
+    background-color: #ACACAC;
 }
 
 .text {
-    color: #FFFFFF;
-    font-family: 'Bebas Neue', sans-serif;
-    font-style: normal;
+    color: #333333;
+    font-family: "Oswald", sans-serif;
+    line-height: 105%;
     font-weight: 400;
-    line-height: normal;
+    text-transform: uppercase;
     max-width: 1000px;
-    font-size: 3.0rem;
     margin: 2.1em 1.666em;
 }
 
@@ -23,18 +23,18 @@ html {
 
 @media (max-width: 400px) {
     .text {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
 
 @media (min-width: 401px) {
     .text {
-        font-size: 2.0rem;
+        font-size: 3.0rem;
     }
 }
 
 @media (min-width: 900px) {
     .text {
-        font-size: 2.5rem;
+        font-size: 4.5rem;
     }
 }
