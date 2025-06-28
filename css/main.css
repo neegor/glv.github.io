@@ -17,7 +17,7 @@ html {
 
 .logo {
     margin-top: 1.25em;
-    width: 8em;
+    width: 7em;
     display: block;
 }
 
@@ -35,6 +35,6 @@ html {
 
 @media (min-width: 900px) {
     .text {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
 }
